@@ -27,4 +27,8 @@ After the correlation and Volatility part, for the remaining pairs, I applied th
 Then I sorted the pairs by ADF-test value from smallest to largest and selected the top 10 pairs which have smallest test value
 #### Trading rules
 I set the initial capital is $10000, and set Open position is in [1, 1.5, 2, 2.5, 3], Close position is in [-0.2, -0.1, 0, 0.1, 0.2] and Stoploss is in [2, 3, 4, 5, 6]. Here the number is the multiple of standard deviation of residual.
+
 Do the iteration in training period to find the optimal 3 parameters which got maximum P&L. Then the parameters are what we used in test period.
+
+#### Out-of-Sample test
+I used the optimal parameters we got above to test the performance in test data.
