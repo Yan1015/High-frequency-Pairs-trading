@@ -2,7 +2,7 @@
 ## Introduction
 This is the final project of Statistical Arbitrage course and it aims to apply pairs trading in high frequency data to realize auto-trading.
 
-As we all know, pairs trading takes advantage of market inefficiencies based on a pair of stocks. The perception is to identify two stocks that move together and to take long and short positions simultaneously when they diverge abnormally. Thus, it is expected that the prices of the two stocks will converge to a mean in the future. In this project, we use correlation, conintegration and volitality these 3 criterias to select stock pairs.
+As we all know, pairs trading takes advantage of market inefficiencies based on a pair of stocks. The perception is to identify two stocks that move together and to take long and short positions simultaneously when they diverge abnormally. Thus, it is expected that the prices of the two stocks will converge to a mean in the future. In this project, we use correlation, cointegration and volitality these 3 criterias to select stock pairs.
 
 ## Data
 Downloaded the 15-min data from Bloomberg, which are 505 stocks’ close price per 15 min from 4/2/2018 to 10/15/2018. 
